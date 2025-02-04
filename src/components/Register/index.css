@@ -1,0 +1,69 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav-card {
+  padding-top: 30px;
+  padding-left: 10px;
+  height: 20%;
+}
+
+.register-body-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.register-image {
+  width: 350px;
+  height: 350px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.register-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control input {
+  width: 250px;
+  height: 35px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px #475569 solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-control select {
+  width: 250px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px #475569 solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.register-btn {
+  background-color: #2563eb;
+  height: 30px;
+  width: 120px;
+  color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav-card {
+  padding-top: 30px;
+  padding-left: 10px;
+  height: 20%;
+}
+.home-body-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.register-btn {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  font-family: Roboto;
+  cursor: pointer;
+  border: 0;
+}
+
+.meetup-image {
+  width: 650px;
+  height: 335px;
+}
